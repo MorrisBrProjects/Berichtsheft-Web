@@ -1,4 +1,7 @@
-package de.morrisbr.witzlecraft.objects;
+package de.morrisbr.witzlecraft.services;
+
+import de.morrisbr.witzlecraft.utils.JsonConverter;
+import de.morrisbr.witzlecraft.bericht.Bericht;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -6,7 +9,7 @@ import java.util.List;
 
 public class BerichtService {
 
-    public static List<String> getAllBerichteAsJson() {
+    public List<String> getAllBerichteAsJson() {
         File folder = new File("resources/OnlineBanking/berichte");
         File[] listOfFiles = folder.listFiles();
         ArrayList<String> berichte = new ArrayList<>();
@@ -24,7 +27,7 @@ public class BerichtService {
         return berichte;
     }
 
-    public static ArrayList<Bericht> getAllBerichteAsObject() {
+    public ArrayList<Bericht> getAllBerichteAsObject() {
         File folder = new File("resources/OnlineBanking/berichte");
         File[] listOfFiles = folder.listFiles();
         ArrayList<Bericht> berichte = new ArrayList<>();
@@ -42,7 +45,7 @@ public class BerichtService {
         return berichte;
     }
 
-    public static String getBerichtAsJson(String name) {
+    public String getBerichtAsJson(String name) {
         for (String json : getAllBerichteAsJson()) {
             Bericht bericht = (Bericht) JsonConverter.jsonStringToObject(json, Bericht.class);
             if(bericht.getTitle().equalsIgnoreCase(name)) {
@@ -52,12 +55,12 @@ public class BerichtService {
         return "Not found!";
     }
 
-    public static Bericht getBerichtAsObject(String name) {
+    public Bericht getBerichtAsObject(String name) {
         Bericht bericht = (Bericht) JsonConverter.jsonStringToObject(getBerichtAsJson(name), Bericht.class);
         return bericht;
     }
 
-    public static boolean isBerichtExist(String name) {
+    public boolean isBerichtExist(String name) {
         return getBerichtAsJson(name).equalsIgnoreCase("Not found!");
     }
 

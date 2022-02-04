@@ -1,4 +1,4 @@
-package de.morrisbr.witzlecraft.objects;
+package de.morrisbr.witzlecraft.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;

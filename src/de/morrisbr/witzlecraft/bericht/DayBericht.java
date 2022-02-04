@@ -1,8 +1,8 @@
-package de.morrisbr.witzlecraft.objects;
+package de.morrisbr.witzlecraft.bericht;
 
-import java.util.ArrayList;
+import de.morrisbr.witzlecraft.bericht.task.Task;
+
 import java.util.HashMap;
-import java.util.List;
 
 public class DayBericht {
 

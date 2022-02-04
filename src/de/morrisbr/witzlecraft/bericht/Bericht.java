@@ -1,4 +1,6 @@
-package de.morrisbr.witzlecraft.objects;
+package de.morrisbr.witzlecraft.bericht;
+
+import de.morrisbr.witzlecraft.bericht.category.CategoryWithContent;
 
 import java.io.File;
 import java.util.HashMap;

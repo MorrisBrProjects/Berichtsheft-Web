@@ -1,9 +1,8 @@
-package de.morrisbr.witzlecraft.objects;
+package de.morrisbr.witzlecraft.services;
 
-import javax.imageio.ImageIO;
-import javax.imageio.stream.ImageInputStream;
-import java.awt.*;
-import java.awt.image.BufferedImage;
+import de.morrisbr.witzlecraft.utils.JsonConverter;
+import de.morrisbr.witzlecraft.bericht.task.Task;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;

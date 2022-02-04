@@ -1,6 +1,6 @@
-package de.morrisbr.witzlecraft.objects;
+package de.morrisbr.witzlecraft.template;
 
-public class Veriables {
+public class WordPlaceholder {
 
     public static final String LINE_1 = "_1_line";
     public static final String LINE_2 = "_2_line";
