@@ -1,9 +1,7 @@
 package de.morrisbr.witzlecraft.main;
 
 import java.io.File;
-import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Collections;
 import java.util.List;
 
 import de.morrisbr.witzlecraft.bericht.Bericht;
@@ -12,12 +10,9 @@ import de.morrisbr.witzlecraft.bericht.task.elements.ByteImage;
 import de.morrisbr.witzlecraft.utils.JsonConverter;
 import de.morrisbr.witzlecraft.services.BerichtService;
 import de.morrisbr.witzlecraft.services.TaskService;
-import gg.jte.ContentType;
-import gg.jte.TemplateEngine;
 import gg.jte.resolve.DirectoryCodeResolver;
 import io.javalin.Javalin;
 import io.javalin.http.staticfiles.Location;
-import io.javalin.plugin.rendering.template.JavalinJte;
 
 import javax.imageio.ImageIO;
 
@@ -113,6 +108,6 @@ public class Main {
 	}
 
     public static void main(String[] args) {
-		new Main(82, "resources/OnlineBanking").start();
+		new Main(82, "resources/DataStorage").start();
     }
 }
