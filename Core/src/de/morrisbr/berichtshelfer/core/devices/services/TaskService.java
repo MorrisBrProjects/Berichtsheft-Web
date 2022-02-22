@@ -1,8 +1,8 @@
-package de.morrisbr.berichtshelfer.devices.services;
+package de.morrisbr.berichtshelfer.core.devices.services;
 
 
-import de.morrisbr.berichtshelfer.devices.bericht.task.Task;
-import de.morrisbr.berichtshelfer.devices.utils.JsonConverter;
+import de.morrisbr.berichtshelfer.core.devices.bericht.task.Task;
+import de.morrisbr.berichtshelfer.core.devices.utils.JsonConverter;
 
 import java.io.File;
 import java.util.ArrayList;

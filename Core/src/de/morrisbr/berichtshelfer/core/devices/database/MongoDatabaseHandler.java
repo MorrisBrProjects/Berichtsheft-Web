@@ -1,4 +1,4 @@
-package de.morrisbr.berichtshelfer.devices.database;
+package de.morrisbr.berichtshelfer.core.devices.database;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.MongoClient;

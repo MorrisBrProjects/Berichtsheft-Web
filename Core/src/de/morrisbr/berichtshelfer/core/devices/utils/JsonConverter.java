@@ -1,4 +1,4 @@
-package de.morrisbr.berichtshelfer.devices.utils;
+package de.morrisbr.berichtshelfer.core.devices.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;

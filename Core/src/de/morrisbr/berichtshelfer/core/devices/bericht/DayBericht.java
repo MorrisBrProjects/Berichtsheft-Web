@@ -1,7 +1,7 @@
-package de.morrisbr.berichtshelfer.devices.bericht;
+package de.morrisbr.berichtshelfer.core.devices.bericht;
 
 
-import de.morrisbr.berichtshelfer.devices.bericht.task.Task;
+import de.morrisbr.berichtshelfer.core.devices.bericht.task.Task;
 
 import java.util.HashMap;
 
@@ -23,6 +23,10 @@ public class DayBericht {
 
     public void addTask(Task task, String content) {
         getTasks().put(task.getTitle(), content);
+    }
+
+    public String getTaskContent(String name) {
+        return tasks.get(name);
     }
 
     public void removeTask(String taskName) {

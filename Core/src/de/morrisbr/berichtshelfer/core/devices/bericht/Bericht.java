@@ -1,12 +1,7 @@
-package de.morrisbr.berichtshelfer.devices.bericht;
+package de.morrisbr.berichtshelfer.core.devices.bericht;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import de.morrisbr.berichtshelfer.devices.bericht.category.CategoryWithContent;
-import org.bson.Document;
-import org.mongojack.ObjectId;
+import de.morrisbr.berichtshelfer.core.devices.bericht.category.CategoryWithContent;
 
-import java.io.File;
 import java.util.HashMap;
 
 public class Bericht {

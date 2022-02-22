@@ -1,4 +1,4 @@
-package de.morrisbr.berichtshelfer.devices.template;
+package de.morrisbr.berichtshelfer.core.devices.template;
 
 public class WordPlaceholder {
 

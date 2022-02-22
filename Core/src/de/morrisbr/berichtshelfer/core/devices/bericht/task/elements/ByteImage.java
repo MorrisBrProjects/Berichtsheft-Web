@@ -1,4 +1,4 @@
-package de.morrisbr.berichtshelfer.devices.bericht.task.elements;
+package de.morrisbr.berichtshelfer.core.devices.bericht.task.elements;
 
 import javax.imageio.ImageIO;
 import javax.imageio.stream.ImageInputStream;

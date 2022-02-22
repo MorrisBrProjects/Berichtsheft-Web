@@ -1,16 +1,12 @@
-package de.morrisbr.berichtshelfer.devices.services;
+package de.morrisbr.berichtshelfer.core.devices.services;
 
 
-import com.mongodb.util.JSON;
-import de.morrisbr.berichtshelfer.devices.bericht.Bericht;
-import de.morrisbr.berichtshelfer.devices.database.MongoDatabaseHandler;
-import de.morrisbr.berichtshelfer.devices.utils.JsonConverter;
+import de.morrisbr.berichtshelfer.core.devices.bericht.Bericht;
+import de.morrisbr.berichtshelfer.core.devices.database.MongoDatabaseHandler;
+import de.morrisbr.berichtshelfer.core.devices.utils.JsonConverter;
 import org.bson.Document;
-import org.bson.codecs.configuration.CodecRegistry;
-import org.mongojack.JacksonMongoCollection;
 
 
-import javax.print.Doc;
 import java.util.ArrayList;
 import java.util.List;
 

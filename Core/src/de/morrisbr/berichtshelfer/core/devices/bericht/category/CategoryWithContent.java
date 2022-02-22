@@ -1,7 +1,7 @@
-package de.morrisbr.berichtshelfer.devices.bericht.category;
+package de.morrisbr.berichtshelfer.core.devices.bericht.category;
 
 
-import de.morrisbr.berichtshelfer.devices.bericht.task.Task;
+import de.morrisbr.berichtshelfer.core.devices.bericht.task.Task;
 
 public class CategoryWithContent {
 

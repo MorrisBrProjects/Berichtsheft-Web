@@ -1,4 +1,4 @@
-package de.morrisbr.berichtshelfer.devices.berichtserver;
+package de.morrisbr.berichtshelfer.core.devices.berichtserver;
 
 import gg.jte.resolve.DirectoryCodeResolver;
 import io.javalin.Javalin;

@@ -1,15 +1,12 @@
 package de.morrisbr.berichtshelfer.main;
 
-import java.io.File;
 import java.util.List;
 
-import de.morrisbr.berichtshelfer.devices.bericht.Bericht;
-import de.morrisbr.berichtshelfer.devices.berichtserver.BHServer;
-import de.morrisbr.berichtshelfer.devices.services.BerichtService;
+import de.morrisbr.berichtshelfer.core.devices.bericht.Bericht;
+import de.morrisbr.berichtshelfer.core.devices.berichtserver.BHServer;
+import de.morrisbr.berichtshelfer.core.devices.services.BerichtService;
 import de.morrisbr.berichtshelfer.utils.JsonConverter;
 import io.javalin.Javalin;
-
-import javax.imageio.ImageIO;
 
 public class Main {
 
@@ -18,7 +15,7 @@ public class Main {
 
 	public Main(int port, String ressourcePath) {
 		//this.bhServer = new BHServer(port, ressourcePath);
-		this.berichtService = new BerichtService("", "BerichtHelfer");
+		this.berichtService = new BerichtService("mongodb://37.114.47.77:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false", "BerichtHelfer");
 	}
 
 	public void start() {

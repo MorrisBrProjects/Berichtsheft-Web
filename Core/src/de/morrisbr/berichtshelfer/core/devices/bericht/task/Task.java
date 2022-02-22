@@ -1,4 +1,4 @@
-package de.morrisbr.berichtshelfer.devices.bericht.task;
+package de.morrisbr.berichtshelfer.core.devices.bericht.task;
 
 public class Task {
     private String title;
