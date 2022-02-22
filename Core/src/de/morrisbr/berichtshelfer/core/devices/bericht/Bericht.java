@@ -57,5 +57,9 @@ public class Bericht {
 
     }
 
+    public void save() {
+        //JsonConverter.objectToJsonFile("resources/OnlineBanking/berichte/" + title + ".json", this);
+    }
+
 
 }
