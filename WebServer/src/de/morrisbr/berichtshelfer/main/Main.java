@@ -18,7 +18,7 @@ public class Main {
 
 	public Main(int port, String ressourcePath) {
 		//this.bhServer = new BHServer(port, ressourcePath);
-		this.berichtService = new BerichtService("mongodb://37.114.47.77:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false", "BerichtHelfer");
+		this.berichtService = new BerichtService("", "BerichtHelfer");
 	}
 
 	public void start() {
