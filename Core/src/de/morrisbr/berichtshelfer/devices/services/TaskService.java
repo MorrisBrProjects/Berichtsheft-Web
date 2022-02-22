@@ -1,9 +1,10 @@
-package de.morrisbr.witzlecraft.services;
+package de.morrisbr.berichtshelfer.devices.services;
 
-import de.morrisbr.witzlecraft.utils.JsonConverter;
-import de.morrisbr.witzlecraft.bericht.task.Task;
 
-import java.io.*;
+import de.morrisbr.berichtshelfer.devices.bericht.task.Task;
+import de.morrisbr.berichtshelfer.devices.utils.JsonConverter;
+
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,7 +1,4 @@
-package de.morrisbr.witzlecraft.bericht.task;
-
-import java.awt.*;
-import java.awt.image.BufferedImage;
+package de.morrisbr.berichtshelfer.devices.bericht.task;
 
 public class Task {
     private String title;

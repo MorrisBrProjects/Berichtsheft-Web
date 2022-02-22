@@ -1,8 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>Witzlecraft-Web</groupId>
-  <artifactId>Witzlecraft-Web</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <groupId>Berichtsheft</groupId>
+  <artifactId>Berichtsheft</artifactId>
+	<packaging>pom</packaging>
+	<version>0.0.1-SNAPSHOT</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
 	<plugins>
@@ -18,6 +19,11 @@
         
     </plugins>
   </build>
+	<modules>
+		<module>Core</module>
+		<module>WebServer</module>
+		<module>RestAPI</module>
+	</modules>
 
 	<repositories>
 		<repository>
@@ -58,16 +64,6 @@
 			<artifactId>Java-WebSocket</artifactId>
 			<version>1.5.1</version>
 		</dependency>
-		<dependency>
-			 <groupId>kryonet</groupId>
-			 <artifactId>kryonet</artifactId>
-			 <version>2.21</version>
-		</dependency>
-		<dependency>
-			 <groupId>com.esotericsoftware</groupId>
-			 <artifactId>kryo</artifactId>
-			 <version>5.2.0</version>
-		</dependency>
 		  <dependency>
 			  <groupId>com.fasterxml.jackson.core</groupId>
 			  <artifactId>jackson-databind</artifactId>
@@ -83,10 +79,16 @@
 			  <artifactId>jackson-core</artifactId>
 			  <version>2.10.5</version>
 		  </dependency>
+		  <!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
 		  <dependency>
 			  <groupId>org.mongodb</groupId>
 			  <artifactId>mongo-java-driver</artifactId>
 			  <version>3.12.9</version>
+		  </dependency>
+		  <dependency>
+			  <groupId>org.mongojack</groupId>
+			  <artifactId>mongojack</artifactId>
+			  <version>4.3.0</version>
 		  </dependency>
 	  </dependencies>
 </project>

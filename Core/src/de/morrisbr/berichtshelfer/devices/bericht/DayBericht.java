@@ -1,6 +1,7 @@
-package de.morrisbr.witzlecraft.bericht;
+package de.morrisbr.berichtshelfer.devices.bericht;
 
-import de.morrisbr.witzlecraft.bericht.task.Task;
+
+import de.morrisbr.berichtshelfer.devices.bericht.task.Task;
 
 import java.util.HashMap;
 

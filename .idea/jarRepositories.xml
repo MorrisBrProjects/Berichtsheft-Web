@@ -9,6 +9,16 @@
     <remote-repository>
       <option name="id" value="clojars" />
       <option name="name" value="clojars" />
+      <option name="url" value="https://mvnrepository.com/artifact/com.amitshekhar.android/android-networking" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mvnrepository" />
+      <option name="name" value="mvnrepository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="clojars" />
+      <option name="name" value="clojars" />
       <option name="url" value="http://clojars.org/repo/" />
     </remote-repository>
     <remote-repository>
@@ -20,6 +30,11 @@
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mvnrepository" />
+      <option name="name" value="mvnrepository" />
+      <option name="url" value="http://repo1.maven.org/maven2" />
     </remote-repository>
   </component>
 </project>

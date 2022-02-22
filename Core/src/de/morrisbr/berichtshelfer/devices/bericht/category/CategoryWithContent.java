@@ -1,6 +1,7 @@
-package de.morrisbr.witzlecraft.bericht.category;
+package de.morrisbr.berichtshelfer.devices.bericht.category;
 
-import de.morrisbr.witzlecraft.bericht.task.Task;
+
+import de.morrisbr.berichtshelfer.devices.bericht.task.Task;
 
 public class CategoryWithContent {
 

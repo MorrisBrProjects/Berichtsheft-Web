@@ -1,9 +1,12 @@
-package de.morrisbr.witzlecraft.utils;
+package de.morrisbr.berichtshelfer.devices.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 
-import java.io.*;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
@@ -26,7 +29,6 @@ public class JsonConverter {
             e.printStackTrace();
         }
         return  gson.fromJson(reader, object);
-
     }
 
 

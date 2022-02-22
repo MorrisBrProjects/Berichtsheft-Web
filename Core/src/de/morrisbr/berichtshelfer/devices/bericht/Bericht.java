@@ -1,20 +1,25 @@
-package de.morrisbr.witzlecraft.bericht;
+package de.morrisbr.berichtshelfer.devices.bericht;
 
-import de.morrisbr.witzlecraft.bericht.category.CategoryWithContent;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import de.morrisbr.berichtshelfer.devices.bericht.category.CategoryWithContent;
+import org.bson.Document;
+import org.mongojack.ObjectId;
 
 import java.io.File;
 import java.util.HashMap;
 
 public class Bericht {
 
-
     private String title;
     private HashMap<String, DayBericht> days = new HashMap<>();
+
 
 
     public Bericht(String title) {
         this.title = title;
     }
+
 
     public Bericht() {
 
@@ -43,16 +48,18 @@ public class Bericht {
         this.days = days;
     }
 
+
     public String getTitle() {
         return title;
     }
+
 
     public void setTitle(String title) {
         this.title = title;
     }
 
     public void delete() {
-        new File("resources/OnlineBanking/berichte/" + title + ".json").delete();
+
     }
 
 

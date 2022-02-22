@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Berichtsheft" />
         <module name="Witzlecraft-Web" />
+        <module name="RestAPI" />
+        <module name="WebServer" />
+        <module name="Core" />
       </profile>
     </annotationProcessing>
   </component>
